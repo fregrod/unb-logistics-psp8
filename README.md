@@ -35,6 +35,15 @@ Conforme exigido pelo método científico da disciplina, as seguintes 5 pergunta
 4. **Pergunta 4 (Tipologia de Rota):** *Qual a relação entre a complexidade da rota logística (intraestadual vs. interestadual na mesma região vs. inter-regional) e a probabilidade de atrasos graves (superiores a 48 horas)?*
 5. **Pergunta 5 (Impacto no CSAT & Simulação):** *Qual o impacto direto do atraso na entrega sobre a probabilidade de o cliente emitir uma avaliação detratora (score 1 ou 2), e qual seria a elevação projetada no CSAT geral da plataforma com a redução de 50% dos atrasos?*
 
+### 1.3 As Três Dimensões do MVP e Estimativa de Custos em Nuvem
+Em estrita consonância com a Seção 1.2 do manual da disciplina, o MVP valida a interseção entre viabilidade técnica, viabilidade financeira e desejabilidade:
+
+| Dimensão | Pergunta Central | Evidência Comprovada no MVP |
+| :--- | :--- | :--- |
+| **Viabilidade Técnica** | *A solução pode ser construída com a tecnologia disponível?* | Pipeline executando ponta a ponta na nuvem (**Databricks / PySpark / Delta Lake**) com persistência demonstrável em catálogo. |
+| **Viabilidade Financeira** | *A solução é economicamente sustentável?* | **Custo Operacional Estimado:** No Databricks Community Edition o custo de experimentação é **R$ 0,00** (Free Tier). Em ambiente produtivo contínuo (AWS/Azure com cluster `m5.large` processando micro-lotes diários de 15 min), o custo é de ~**US$ 2,50 a US$ 4,00 por mês** (~R$ 15 a R$ 25/mês). O ROI é altíssimo frente ao custo de cancelamento de pedidos e churn de clientes. |
+| **Desejabilidade** | *A solução é o que os usuários de fato querem?* | 5 perguntas de negócio respondidas empiricamente com recomendações acionáveis para roteirização e mitigação de detratores. |
+
 ---
 
 ## 2. Coleta, Licenciamento e Conformidade Ética (LGPD)
