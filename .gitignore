@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter / Databricks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# macOS
+.DS_Store
+
+# Data files (Download via script/notebook to keep repo light)
+data/
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# Scratch / Temporary
+scratch/
+.cache/
