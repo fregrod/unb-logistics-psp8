@@ -48,16 +48,21 @@ Este documento orienta a execução do pipeline de dados no **Databricks Communi
 ## 4. Verificação das Tabelas no Catálogo de Dados da Nuvem
 
 1. No menu lateral esquerdo do Databricks, clique em **Catalog** (ou **Data**).
-2. Expanda o banco de dados `default`:
-   * Você verá as tabelas Delta persistidas:
-     * `gold_fato_entregas_pedidos`
-     * `gold_dim_clientes`
-     * `gold_dim_vendedores`
-     * `gold_dim_produtos`
-3. Clique sobre `gold_fato_entregas_pedidos` e veja a aba **Schema** e **Sample Data**.
+2. Expanda o banco de dados dedicado criado pelo pipeline: **`psp8_olist_dw`**:
+   * Você verá todas as tabelas gerenciadas em formato **Delta Lake**:
+     * **Camada Gold (Dimensional):**
+       * `fato_entregas_pedidos`
+       * `dim_clientes`
+       * `dim_vendedores`
+       * `dim_produtos`
+       * `dim_rotas_logisticas`
+       * `dim_tempo`
+     * **Camada Bronze (Data Lake Bruto):**
+       * `bronze_orders`, `bronze_order_items`, `bronze_customers`, etc.
+3. Clique sobre `fato_entregas_pedidos` e veja a aba **Schema**, **Details** (formato DELTA) e **Sample Data**.
 
 > **📸 Evidência 3 a Capturar:**  
-> Tire um print do catálogo da nuvem mostrando as tabelas Delta criadas e salve como `evidencias/03_tabelas_delta_persistidas_nuvem.png`.
+> Tire um print do catálogo da nuvem mostrando o banco `psp8_olist_dw` e as tabelas Delta criadas e salve como `evidencias/03_tabelas_delta_persistidas_nuvem.png`.
 
 ---
 
