@@ -325,5 +325,11 @@ Em cumprimento ao item 6 do manual do MVP, apresenta-se a reflexão honesta sobr
    python scripts/generate_analysis_charts.py
    ```
 
-### 9.2 Execução em Nuvem (Databricks)
-Siga o passo a passo detalhado em [evidencias/guia_de_execucao_databricks.md](evidencias/guia_de_execucao_databricks.md) para importar os notebooks no **Databricks Community Edition** e visualizar a persistência nas tabelas Delta Lake.
+### 9.2 Execução em Nuvem (Databricks Lakehouse)
+Siga o passo a passo detalhado em [evidencias/guia_de_execucao_databricks.md](evidencias/guia_de_execucao_databricks.md) para importar os notebooks no **Databricks** e visualizar a persistência nas tabelas Delta Lake.
+
+#### Comprovação de Execução no Databricks:
+Abaixo, o registro da execução bem-sucedida do pipeline na nuvem, comprovando a criação das **12 tabelas gerenciadas Delta Lake** (6 Bronze, 5 Dimensões e 1 Fato) e a agregação analítica de validação via Spark SQL:
+
+![Execução do Pipeline e Tabelas Delta no Databricks](evidencias/02_execucao_pipeline_etl_nuvem.png)
+

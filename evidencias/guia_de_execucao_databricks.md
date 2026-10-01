@@ -40,8 +40,10 @@ Este documento orienta a execução do pipeline de dados no **Databricks Communi
    * A Célula 7 salvará as tabelas no formato **Delta Lake** (`gold_fato_entregas_pedidos`, etc.).
    * A Célula 8 executará a consulta Spark SQL de validação.
 
-> **📸 Evidência 2 a Capturar:**  
-> Tire um print da execução da Célula 7 e 8 com a saída SQL exibindo os resultados agregados e salve como `evidencias/02_execucao_pipeline_etl_nuvem.png`.
+> **📸 Evidência 2 Registrada:**  
+> Print da execução bem-sucedida das tabelas no catálogo Delta e da consulta Spark SQL:
+>
+> ![Execução do Pipeline e Tabelas Delta no Databricks](02_execucao_pipeline_etl_nuvem.png)
 
 ---
 
