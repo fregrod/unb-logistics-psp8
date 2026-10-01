@@ -309,8 +309,8 @@ Em cumprimento ao item 6 do manual do MVP, apresenta-se a reflexão honesta sobr
 ### 9.1 Execução Local
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/rodrigofregonasse/PSP8.git
-   cd PSP8
+   git clone https://github.com/fregrod/unb-logistics-psp8.git
+   cd unb-logistics-psp8
    ```
 2. Instale as dependências:
    ```bash
