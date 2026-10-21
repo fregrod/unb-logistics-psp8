@@ -284,7 +284,8 @@ Em cumprimento ao item 6 do manual do MVP, apresenta-se a reflexão honesta sobr
 ├── LICENSE                        <- Licenças do código (MIT) e dos dados (CC BY-NC-SA 4.0 / LGPD)
 ├── notebooks/                     <- Notebooks de ETL e Análise para nuvem
 │   ├── 01_pipeline_etl_databricks.ipynb   <- Pipeline PySpark e Delta Lake pronto para o Databricks
-│   └── 02_analise_exploratoria_e_decisao.ipynb <- Auditoria de dados e resolução das 5 perguntas
+│   ├── 02_analise_exploratoria_e_decisao.ipynb <- Auditoria de dados e resolução das 5 perguntas
+│   └── 03_analise_preditiva_machine_learning.ipynb <- Camada Preditiva e Machine Learning (Classificação de Risco e Dynamic ETA)
 ├── scripts/                       <- Código auxiliar e pipelines automatizados
 │   ├── etl_pipeline.py            <- Script modular de extração, transformação e carga
 │   └── generate_analysis_charts.py <- Script de visualização estatística de alta resolução
