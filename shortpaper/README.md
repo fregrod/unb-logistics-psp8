@@ -43,6 +43,7 @@ shortpaper/
 ├── compile.sh         <- Script de compilação em 1 clique
 ├── Makefile           <- Automação para comando make / make clean / make view
 ├── main.pdf           <- PDF final compilado (6 páginas)
+├── apresentacao_mvp_sad.pptx <- Apresentação de slides minimalista (13 slides 16:9)
 ├── figuras/           <- Imagens e gráficos em alta resolução incorporados no artigo
 └── README.md          <- Este guia de documentação
 ```

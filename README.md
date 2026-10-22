@@ -282,6 +282,7 @@ Em cumprimento ao item 6 do manual do MVP, apresenta-se a reflexão honesta sobr
 ```text
 ├── README.md                      <- Documento principal avaliado (Objetivo, ETL, Análises e Autoavaliação)
 ├── LICENSE                        <- Licenças do código (MIT) e dos dados (CC BY-NC-SA 4.0 / LGPD)
+├── apresentacao_mvp_sad.pptx      <- Apresentação executiva minimalista em PowerPoint (13 slides)
 ├── notebooks/                     <- Notebooks de ETL e Análise para nuvem
 │   ├── 01_pipeline_etl_databricks.ipynb   <- Pipeline PySpark e Delta Lake pronto para o Databricks
 │   ├── 02_analise_exploratoria_e_decisao.ipynb <- Auditoria de dados e resolução das 5 perguntas
