@@ -292,6 +292,12 @@ Em cumprimento ao item 6 do manual do MVP, apresenta-se a reflexão honesta sobr
 ├── catalogo/                      <- Modelagem e Dicionário de Dados
 │   ├── modelo_dimensional.md      <- Arquitetura e Diagrama Star Schema em Mermaid
 │   └── catalogo_de_dados.md       <- Catálogo de Dados com tipos, domínios, nulidade e linhagem
+├── shortpaper/                    <- Artigo científico em LaTeX (formato clássico de Short Paper)
+│   ├── main.tex                   <- Código-fonte principal do artigo em 2 colunas
+│   ├── main.pdf                   <- PDF compilado do Short Paper (6 páginas)
+│   ├── referencias.bib            <- Citações bibliográficas em BibTeX
+│   ├── compile.sh                 <- Script de compilação em 1 comando
+│   └── Makefile                   <- Automação de compilação
 └── evidencias/                    <- Comprovações visuais e guias de execução
     ├── guia_de_execucao_databricks.md <- Roteiro passo a passo para o Databricks Community Edition
     └── graficos/                  <- Visualizações estatísticas a 300 DPI geradas pelo pipeline

@@ -25,3 +25,14 @@ data/
 # Scratch / Temporary
 scratch/
 .cache/
+
+# LaTeX auxiliary files (keep PDFs tracked)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
