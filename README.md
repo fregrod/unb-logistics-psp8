@@ -17,6 +17,8 @@ Este projeto constitui o **Minimum Viable Product (MVP)** desenvolvido para a di
 
 O objetivo central é diagnosticar os gargalos logísticos da cadeia de transporte e entrega final (*last-mile*) no comércio eletrônico brasileiro, quantificando o impacto de prazos, atrasos operacionais e disparidades regionais sobre o nível de serviço e a satisfação do cliente final (*CSAT* e clientes detratores).
 
+**Material para a defesa:** [apresentação de 11 slides com roteiro de fala](shortpaper/apresentacao_defesa_mvp.pptx) e [short paper](shortpaper/main.pdf).
+
 ---
 
 ## 1. Definição do Problema e Objetivos de Negócio
