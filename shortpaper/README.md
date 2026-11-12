@@ -44,7 +44,7 @@ shortpaper/
 ├── Makefile           <- Automação para comando make / make clean / make view
 ├── main.pdf           <- PDF final compilado (6 páginas)
 ├── apresentacao_mvp_sad.pptx <- Apresentação de slides minimalista (13 slides 16:9)
-├── apresentacao_defesa_mvp.pptx <- Apresentação para defesa (11 slides, com notas do apresentador)
+├── apresentacao_defesa_mvp.pptx <- Apresentação para defesa (13 slides, com notas do apresentador)
 ├── figuras/           <- Imagens e gráficos em alta resolução incorporados no artigo
 └── README.md          <- Este guia de documentação
 ```
